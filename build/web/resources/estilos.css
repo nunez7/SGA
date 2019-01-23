@@ -1,0 +1,181 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:  "Georgia", "Garamond", "Times", "serif";
+  font-size:12px;
+}
+
+#wrap {
+  width:100%;
+}
+
+#header {
+  color: black;
+  background:url('logo.png') no-repeat right;
+  margin-right: 15px;
+}
+
+#nav {
+  background-color: #adc95c;
+  text-align: left;
+  height: 20px;
+  vertical-align: middle;
+  width:100%;
+  border:1px solid #e6e6e6;
+}
+
+#msg {
+  text-align: center;
+}
+
+#main {
+  width:100%;
+  height: 300px; /* Este es el ancho del contenido*/
+}
+
+#footer {
+  background-color: #E5EECC;
+  text-align: center;
+  height: 15px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  border:1px solid #d4d4d4;
+}
+
+/*Clase para errores o mensajes importantes*/
+.error {
+  font-size: 12px;
+  color: #FF0000;
+  margin: 10px 0 0 0 ;
+  text-align: center;
+}
+
+.titulo{
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px 190px 5px 190px;
+  font-size:1.8em;
+  color:#72892d;
+}
+
+.subtitulo{
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px 170px 5px 170px;/*top rigth  button  left*/
+  font-size:1.4em;
+  color:#77902f;
+  border:1px solid #d4d4d4;
+  background-color:#fcfce6;
+
+
+}
+
+/*Manejo de tablas y formularios*/
+.formulario
+{
+  outline:1px solid #d4d4d4;
+  border:5px solid #e5eecc;
+  text-align: center;
+  margin: 5px 170px 5px 170px;/*top rigth  button  left*/
+  padding: 15px 0 0 0 ;
+  color:#d4d4d4;
+}
+
+/*Permite centrar elementos como los botones*/
+.tabla{
+  text-align: center;
+}
+
+/*Elementos por default en un formulario o datos
+de una tabla*/
+.elemento
+{
+  padding: 5px;
+  color: #555555;
+  text-align: right;
+}
+
+.elemento th
+{
+  background-color:#98b73b;
+  vertical-align:middle;
+  text-align: center;
+  padding: 0 10px 0 10px;
+  margin:0;
+  color:#f1f5e2;
+}
+
+.elemento tr:hover td
+{
+  background: #fcfce6;
+}
+
+.row1
+{
+  background-color:#e5eecc;
+  vertical-align:middle;
+  text-align: left;
+  padding: 3px;
+  color: #394517;
+}
+
+.row2
+{
+  background-color:#f3f7e7;
+  vertical-align:middle;
+  text-align: left;
+  padding: 3px;
+  color: #394517;
+}
+
+
+
+/* Links generales en la pagina  */
+a{
+  text-decoration:none;
+  color:#77902f;
+  background-color:transparent;
+}
+
+a:hover{
+  text-decoration:none;
+  color:#97b63c;
+  background-color:transparent;
+}
+
+/* Link del menu de navegacion */
+#nav a {
+  background:#98bf21;
+  color: #f1f5e2;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  background: #E5EECC;
+  color: #97b63c;
+}
+
+/*Clases para el menu de navegacion*/
+.izq {
+  font-size: 15px;
+  padding-left: 15px;
+  float: left;
+}
+
+.der {
+  font-size: 15px;
+  text-align: right;
+  float: right;
+  padding-right: 15px;
+  color:#f1f5e2;
+}
